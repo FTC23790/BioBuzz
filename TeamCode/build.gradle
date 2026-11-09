@@ -23,7 +23,12 @@ android {
         jniLibs.useLegacyPackaging true
     }
 }
-
+repositories {
+    maven {
+        url = "https://repo.dairy.foundation/releases"
+    }
+}
 dependencies {
     implementation project(':FtcRobotController')
+    implementation("com.acmerobotics.slothboard:dashboard:0.3.2+0.6.0")
 }
