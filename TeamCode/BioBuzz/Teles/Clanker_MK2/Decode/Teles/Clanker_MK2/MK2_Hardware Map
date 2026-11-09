@@ -1,0 +1,8 @@
+EH-1     EH1FrontRight     435 motor
+EH-2     EH2FrontLeft      435 motor
+EH-0     EH0BackRight      435 motor
+CH-1     CH1BackLeft       435 motor
+EH-3     EH3In             435 motor
+EH-S1    EHS1Pass          Cont Servo
+CH-0     CH0Out            6K motor
+CH I2C Bus 3    pinpoint   Odo Computer
